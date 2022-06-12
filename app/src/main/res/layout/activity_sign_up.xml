@@ -5,13 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".signUp">
+
     <ImageView
         android:id="@+id/app_logo"
-        android:layout_width="150dp"
+        android:layout_width="300dp"
         android:layout_height="200dp"
-        android:src="@drawable/cu_logo"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="85dp"/>
+        android:layout_marginTop="85dp"
+        android:src="@drawable/wel" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -55,7 +57,7 @@
         android:layout_below="@id/password"
         android:layout_marginLeft="130dp"
         android:layout_marginTop="30dp"
-        android:background="@drawable/btn_bg"
+        android:background="@drawable/signup_bg"
         android:text="Sign-Up" />
 
 </RelativeLayout>

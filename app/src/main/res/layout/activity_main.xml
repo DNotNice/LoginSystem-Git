@@ -8,11 +8,11 @@
 
     <ImageView
         android:id="@+id/app_logo"
-        android:layout_width="150dp"
+        android:layout_width="300dp"
         android:layout_height="200dp"
-        android:src="@drawable/cu_logo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="85dp"/>
+        android:layout_marginTop="85dp"
+        android:src="@drawable/wel" />
 
     <EditText
         android:id="@+id/email"
@@ -46,15 +46,16 @@
         android:layout_marginLeft="120dp"
         android:layout_marginTop="30dp"
         android:text="Login" />
+
     <Button
         android:id="@+id/signup"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="Sign-Up"
         android:layout_below="@id/login"
-        android:layout_marginTop="30dp"
         android:layout_marginLeft="120dp"
-        />
+        android:layout_marginTop="30dp"
+        android:background="@drawable/signup_bg"
+        android:text="Sign-Up" />
 
 
 </RelativeLayout>

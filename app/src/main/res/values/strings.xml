@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">IPR</string>
+    <string name="TextV_text">Made by Devansh</string>
+    <string name="my_bio">Hello my name is Devansh and
+        \n I am learning Android Development.
+        \n I started Learning Android Development during my freshmen year
+    \n and since then I am constantly learning and making apps
+     I made a Login and Registration System as a part of my Freshmen Year End Project
+    \n The app uses Firebase to save registered users name , email and password
+    \n If the user is registered  it moves to the welcome screen
+    \n Otherwise a Toast pops up with a message that the user is not registered
+    \n Besides that I made a simple Dice app which on clicking the button gives a us value
+    on the dice and also as a toast
+    \n That\'s all for now
+    \n
+    </string>
 </resources>
